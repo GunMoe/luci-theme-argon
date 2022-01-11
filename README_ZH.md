@@ -75,7 +75,7 @@ v1.x.x 适配18.06 和 Lean Openwrt [如果你是lean代码 请选择这个版�
 ```
 cd lede/package/lean  
 rm -rf luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  
+git clone -b 18.06 https://github.com/gunmoe/luci-theme-argon.git  
 make menuconfig #choose LUCI->Theme->Luci-theme-argon  
 make -j1 V=s  
 ```
@@ -84,7 +84,7 @@ make -j1 V=s
 
 ```
 cd openwrt/package
-git clone https://github.com/jerrykuku/luci-theme-argon.git  
+git clone https://github.com/gunmoe/luci-theme-argon.git  
 make menuconfig #choose LUCI->Theme->Luci-theme-argon  
 make -j1 V=s  
 ```
